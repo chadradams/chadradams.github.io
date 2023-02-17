@@ -14,12 +14,6 @@ body {
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-  font-size: 2rem;
-  margin: 1rem;
-}
-
 section {
   min-height: 100vh;
   display: grid;
@@ -29,18 +23,23 @@ section {
   justify-items: center;
 }
 
-p {
-  font-size: 1rem;
-  margin: 0.5rem;
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100px);
+  transition: all 1s;
 }
 
-ul {
-  list-style: none;
-  margin: 0.5rem;
+@media(prefers-reduced-motion: reduce) {
+  .hidden {
+    transition: none;
+  }
 }
 
-li {
-  margin: 0.5rem;
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
 
 /* Use media queries to make the template responsive */
