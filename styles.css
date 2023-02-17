@@ -69,6 +69,13 @@ section {
   text-shadow: none;
 }
 
+.portrait {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,1);
+}
+
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
   /* Use a two-column layout for larger screens */
