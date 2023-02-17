@@ -64,6 +64,11 @@ section {
   transition-delay: 1000ms;
 }
 
+#myMap {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,1);
+  text-shadow: none;
+}
+
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
   /* Use a two-column layout for larger screens */
