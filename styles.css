@@ -42,6 +42,28 @@ section {
   transform: translateX(0);
 }
 
+.hidden:nth-child(0) {
+  transition-delay: 0;
+}
+.hidden:nth-child(1) {
+  transition-delay: 200ms;
+}
+.hidden:nth-child(2) {
+  transition-delay: 400ms;
+}
+.hidden:nth-child(3) {
+  transition-delay: 600ms;
+}
+.hidden:nth-child(4) {
+  transition-delay: 600ms;
+}
+.hidden:nth-child(5) {
+  transition-delay: 800ms;
+}
+.hidden:nth-child(6) {
+  transition-delay: 1000ms;
+}
+
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
   /* Use a two-column layout for larger screens */
