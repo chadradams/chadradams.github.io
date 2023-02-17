@@ -71,8 +71,8 @@ section {
 
 .portrait {
   width: 100%;
-  height: auto;
-  border-radius: 50%;
+  height: 60vh;
+  border-radius: 10%;
   box-shadow: 0 0 10px 0 rgba(0,0,0,1);
 }
 
