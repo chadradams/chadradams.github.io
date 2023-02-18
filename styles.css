@@ -31,6 +31,12 @@ section {
   justify-items: center;
 }
 
+iframe {
+  border: none;
+  width: 100%;
+  min-height: 320px;
+}
+
 .hidden {
   opacity: 0;
   filter: blur(10px);
@@ -86,6 +92,10 @@ section {
   height: auto;
 }
 
+.container {
+  width: 90%;
+}
+
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
   /* Use a two-column layout for larger screens */
@@ -94,10 +104,15 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }.container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .left {
-    width: 40%;
+    width: 50%;
     margin: 1rem;
   }
 
