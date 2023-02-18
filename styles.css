@@ -34,7 +34,7 @@ section {
 iframe {
   border: none;
   width: 100%;
-  min-height: 320px;
+  min-height: 50vh;
 }
 
 .hidden {
@@ -88,8 +88,8 @@ iframe {
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 85vh;
 }
 
 .container {
@@ -119,5 +119,6 @@ iframe {
   .right {
     width: 50%;
     margin: 1rem;
+    text-align: center;
   }
 }
