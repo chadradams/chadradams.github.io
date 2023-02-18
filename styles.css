@@ -77,9 +77,13 @@ section {
 }
 
 .portrait {
-  height: 50vh;
   border-radius: 10%;
   box-shadow: 0 0 10px 0 rgba(0,0,0,1);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /* Use media queries to make the template responsive */
