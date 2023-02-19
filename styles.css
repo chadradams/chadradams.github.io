@@ -4,7 +4,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0 40px; 
 }
 
 body {
@@ -14,7 +13,7 @@ body {
   font-weight: 400;
   text-shadow: 1px 2px 4px black;
   margin: 0;
-  padding: 0;
+  padding: 0 40px; 
 }
 
 b,
