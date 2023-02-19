@@ -117,7 +117,7 @@ iframe {
 
 .aboutme {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
 }
 
 .portrait {
@@ -168,7 +168,7 @@ iframe {
 
   .aboutme {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     gap: 10px;
   }
 }
