@@ -57,7 +57,7 @@ section {
 iframe {
   border: none;
   width: 100%;
-  min-height: 50vh;
+  height: 400px;
 }
 
 .hidden {
