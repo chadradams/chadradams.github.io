@@ -132,7 +132,7 @@ iframe {
 
 .responsive {
   width: auto;
-  max-height: 50vh;
+  max-height: 350px;
 }
 
 .container {
