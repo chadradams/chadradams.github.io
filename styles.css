@@ -4,12 +4,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0 5rem; 
+  padding: 0 40px; 
 }
 
 body {
   background: rgb(68, 85, 105);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#445569", endColorstr="#24292f", GradientType=1);
   color: white;
   font-family: 'Fira Code', monospace;
   font-weight: 400;
