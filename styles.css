@@ -136,7 +136,11 @@ iframe {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
 }
 
 /* Use media queries to make the template responsive */
