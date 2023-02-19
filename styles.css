@@ -43,6 +43,7 @@ h3,
 h4 {
   font-weight: 700;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 section {
@@ -144,7 +145,7 @@ iframe {
   h2,
   h3,
   h4 {
-    text-align: center;
+    text-align: left;
   }
 
   /* Use a two-column layout for larger screens */
