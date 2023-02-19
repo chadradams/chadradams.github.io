@@ -4,14 +4,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0 5rem; 
 }
 
 body {
   background: rgb(68, 85, 105);
-  background: -moz-linear-gradient(180deg, rgba(68, 85, 105, 1) 0%, rgba(36, 41, 47, 1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(68, 85, 105, 1) 0%, rgba(36, 41, 47, 1) 100%);
-  background: linear-gradient(180deg, rgba(68, 85, 105, 1) 0%, rgba(36, 41, 47, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#445569", endColorstr="#24292f", GradientType=1);
   color: white;
   font-family: 'Fira Code', monospace;
