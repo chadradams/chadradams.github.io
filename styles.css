@@ -64,7 +64,7 @@ iframe {
   opacity: 0;
   filter: blur(10px);
   transform: translateX(-100px);
-  transition: all 1s;
+  transition: transform 1s, filter 1s, opacity 1s;
 }
 
 .hidden:nth-child(even) {
@@ -83,7 +83,7 @@ iframe {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  transition: all 1s;
+  transition: transform 1s, filter 1s, opacity 1s;
 }
 
 .hidden:nth-child(0) {
