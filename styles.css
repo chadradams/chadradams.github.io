@@ -60,6 +60,10 @@ iframe {
   min-height: 50vh;
 }
 
+i {
+  text-decoration: none;
+}
+
 .hidden {
   opacity: 0;
   filter: blur(10px);
