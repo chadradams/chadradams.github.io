@@ -9,11 +9,11 @@
 }
 
 body {
-  background: rgb(68,85,105);
-  background: -moz-linear-gradient(180deg, rgba(68,85,105,1) 0%, rgba(36,41,47,1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(68,85,105,1) 0%, rgba(36,41,47,1) 100%);
-  background: linear-gradient(180deg, rgba(68,85,105,1) 0%, rgba(36,41,47,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#445569",endColorstr="#24292f",GradientType=1); 
+  background: rgb(68, 85, 105);
+  background: -moz-linear-gradient(180deg, rgba(68, 85, 105, 1) 0%, rgba(36, 41, 47, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(68, 85, 105, 1) 0%, rgba(36, 41, 47, 1) 100%);
+  background: linear-gradient(180deg, rgba(68, 85, 105, 1) 0%, rgba(36, 41, 47, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#445569", endColorstr="#24292f", GradientType=1);
   color: white;
   font-family: 'Fira Code', monospace;
   font-weight: 400;
@@ -30,6 +30,7 @@ strong {
 a {
   color: orangered;
   text-decoration: dotted;
+  transition: none;
 }
 
 a:hover {
@@ -38,7 +39,8 @@ a:hover {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -132,6 +134,13 @@ iframe {
 
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
 
   /* Use a two-column layout for larger screens */
   .container {
