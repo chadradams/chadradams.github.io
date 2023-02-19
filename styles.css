@@ -146,13 +146,6 @@ i {
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    text-align: center;
-  }
-
   /* Use a two-column layout for larger screens */
   .container {
     width: 80%;
