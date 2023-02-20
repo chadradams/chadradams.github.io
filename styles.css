@@ -143,7 +143,8 @@ iframe {
 .box {
   position: relative;
   transform-style: preserve-3d;
-  border-radius: 0px;
+  padding: 20px;
+  border-radius: 10px;
 }
 .box::before {
   content: "";
@@ -159,15 +160,11 @@ iframe {
 .panel {
   display: flex;
   background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .panel > img {
-  width: 100%;
   max-width: 300px;
   height: auto;
 }
