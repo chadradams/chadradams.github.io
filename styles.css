@@ -164,10 +164,7 @@ iframe {
   gap: 10px;
 }
 
-.panel > img {
-  max-width: 300px;
-  height: auto;
-}
+.panel > img { height: 200px; }
 
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
