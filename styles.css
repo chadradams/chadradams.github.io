@@ -218,14 +218,33 @@ iframe {
   body {
     padding: 0 10px;
   }
-  
+
+  section {
+    width: 90vw;
+    overflow-x: hidden;
+  }
 
   .portrait {
-    width: 50%;
+    width: 60%;
     max-height: 40vh !important;
   }
-  
+
   .portrait2 {
     max-height: 30vh !important;
+    width: 80%;
+  }
+
+  #myMap {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+
+  .panel>img {
+    height: 90px;
+  }
+
+  .box {
+    width: 90%;
+    margin: 0 auto;
   }
 }
