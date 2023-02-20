@@ -14,6 +14,7 @@ body {
   text-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px 0 black;
   margin: 0;
   padding: 0 40px; 
+  overflow-x: hidden;
 }
 
 b,
@@ -123,6 +124,7 @@ iframe {
 .portrait {
   border-radius: 10%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+  max-height: 70vh;
 }
 
 .responsive {
@@ -155,13 +157,19 @@ iframe {
 }
 
 .panel {
-  display: grid;
+  display: flex;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
-  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
   gap: 10px;
+}
+
+.panel > img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 /* Use media queries to make the template responsive */
