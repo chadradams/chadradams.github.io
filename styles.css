@@ -188,18 +188,7 @@ iframe {
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
 
-  body {
-    padding: 0 10px;
-  }
-
   /* Use a two-column layout for larger screens */
-  .container {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .container {
     width: 80%;
     display: flex;
@@ -217,6 +206,20 @@ iframe {
     margin: 1rem;
   }
 
+  .aboutme {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+    padding: 0 10px;
+  }
+  
+
   .portrait {
     width: 50%;
     max-height: 40vh !important;
@@ -224,11 +227,5 @@ iframe {
   
   .portrait2 {
     max-height: 30vh !important;
-  }
-
-  .aboutme {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
   }
 }
