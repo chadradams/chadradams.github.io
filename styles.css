@@ -13,8 +13,7 @@ body {
   font-weight: 400;
   text-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px 0 black;
   margin: 0;
-  padding: 0 40px; 
-  overflow-x: hidden;
+  padding: 0 40px;
 }
 
 b,
@@ -163,13 +162,14 @@ iframe {
   padding: 20px;
   border-radius: 40px 4px 40px 4px;
 }
+
 .box::before {
   content: "";
-  position: absolute; 
+  position: absolute;
   inset: 0px;
   background: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
   filter: blur(10px);
-  transform: translate3d(8px,10px,-1px);
+  transform: translate3d(8px, 10px, -1px);
   border-radius: inherit;
   pointer-events: none;
 }
@@ -181,10 +181,16 @@ iframe {
   gap: 10px;
 }
 
-.panel > img { height: 200px; }
+.panel>img {
+  height: 200px;
+}
 
 /* Use media queries to make the template responsive */
 @media (min-width: 768px) {
+
+  body {
+    padding: 0 10px;
+  }
 
   /* Use a two-column layout for larger screens */
   .container {
@@ -209,6 +215,15 @@ iframe {
   .right {
     width: 50%;
     margin: 1rem;
+  }
+
+  .portrait {
+    width: 50%;
+    max-height: 40vh !important;
+  }
+  
+  .portrait2 {
+    max-height: 30vh !important;
   }
 
   .aboutme {
